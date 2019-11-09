@@ -1,0 +1,41 @@
+.balance__2 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: auto; 
+    height: 63.5vh;
+}
+.user-block {
+    margin-top: 1.5rem;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+    margin-bottom: 7px; 
+    width: 85%;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    /* padding: 1rem 0.5rem; */
+    padding: 3rem 3rem;
+}
+.userName {
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    padding: 5px;
+}
+.amt {
+    color: #777777;
+}
+.item-el {
+    font-weight: 800;
+}
+.debt-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.debt-amount-font {
+    font-size: 1.5rem;
+}
+.debt-name-font {
+    font-size: 1.5rem;
+}

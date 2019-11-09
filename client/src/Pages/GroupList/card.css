@@ -1,0 +1,70 @@
+.card__item{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    background-color:#fff;
+    height: 70px;
+    width: 100%;
+    margin-bottom: 1px;
+    border-bottom: 1px solid rgba(246,247,249,1);
+}
+.card__item:hover{
+    background-color: rgba(246,247,249,0.2);
+}
+.disp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card__item__friends {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    background-color:#fff;
+    height: 70px;
+    width: 100%;
+    margin-bottom: 1px;
+    border-bottom: 1px solid rgba(246,247,249,1);
+    justify-content: space-around;
+    align-items: center;
+}
+.card__item__friends:hover{
+    background-color: rgba(246,247,249,0.2);
+}
+.font-group__friend {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+}
+.font-group__friend1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight:700;
+    background-color: #617EF4;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    display: inline-block;
+    letter-spacing: .25rem; 
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.font-group {
+    /* display: inline-block; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+}
+.font-group__1 {
+    /* display: inline-block; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    color: #777777;
+}

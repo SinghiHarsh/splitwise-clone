@@ -1,0 +1,179 @@
+.add-group {
+    flex:1;
+    border-bottom: 1.5px solid #e8ecf2;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.btn-add-group:link, .btn-add-group:visited {
+    text-decoration: none;
+    font-size: 1.6rem;
+    border-radius: .5rem;
+    width: 32rem;
+    text-align: center;
+}
+.btn-add-group {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-self: center;
+    font-weight:700;
+    background-color:#617EF4;
+    color: #fff;
+    height: 4.2rem;
+    padding: 1rem 3rem;
+    display: inline-block;
+    letter-spacing: .3rem; 
+}
+.btn-add-group:hover {
+    transform: translateY(-0.2rem);
+} 
+.btn-add-group:active {
+    transform: translateY(-0.05rem);
+}
+.popup {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup-content{
+    background-color: #fff; 
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+.create-group-data {
+    margin: 20px 50px 50px 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+.create-group-data{
+    display: flex;
+    flex-direction: column;
+}
+.form-group-1 {
+    display: flex;
+    flex-direction: column;
+}
+.font-group-1 {
+    font-size: 2.5rem;
+    letter-spacing: .2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+.font-group-2 {
+    font-size: 1.5rem;
+    letter-spacing: 0.05rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.form-group-2 {
+    margin-top:5rem; 
+}
+.form-group-3 {
+    margin-top: 2rem;
+}
+.label-container {
+    min-height: 4.5rem;
+    width: 36rem;
+    background-color: #fff;  
+    border-radius: .25rem;
+    border: 1.1px solid #e8ecf2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.align-label {
+    display: flex;
+    flex-basis: 90%;
+    flex-wrap: wrap;
+}
+.label-wrapper {
+    background-color: #e0e0e0;
+    margin-left:12px; 
+    border-radius: 100px;
+    margin-top: 3px;
+    margin-bottom: 3px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.inv-label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px; 
+    padding-left:15px;
+    padding-right:7px;  
+}
+.cross-icon {
+    transform: translateY(.55rem);
+    cursor: pointer;
+    width: 30px;
+    height: 35px;
+    fill: rgba(0, 0, 0, 0.26);
+}
+.cross-icon:hover{
+    fill: rgba(0, 0, 0, 0.4);
+}
+.dropdown-icon {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    display: flex;
+    transform: translateX(.7rem);
+}
+.form-group-4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 6.5rem;
+}
+.close-btn-disp {
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(246,247,249,1);
+    text-transform: uppercase;
+    align-self: center;
+    font-weight: 700;
+    color: black;
+    height: 4.1rem;
+    padding: 1rem 3rem;
+    display: inline-block;
+    letter-spacing: .25rem;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.submit-btn-disp {
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #617EF4;
+    text-transform: uppercase;
+    align-self: center;
+    font-weight: 700;
+    color: #fff;
+    height: 4.1rem;
+    padding: 1rem 3rem;
+    display: inline-block;
+    letter-spacing: .25rem;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.group-name {
+    display: inline-block;
+    border-width: 0;
+    border-style: none;
+    border-color: none;
+    border-image: none;
+    font-size: 1.4rem;
+    height: 4.5rem;
+    width: 36rem;
+    background-color:#e8ecf2;
+    border-radius: .25rem;
+    padding: 1rem;
+}

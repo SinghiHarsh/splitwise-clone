@@ -1,0 +1,250 @@
+.main-page {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.div-1{
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+}
+.div-2 {
+    display: flex;
+    flex: 1.8;
+    flex-direction: column;
+    background-color: rgba(246,247,249,1);
+    /* z-index: 0; */
+}
+.div-3 {
+    flex: 4.3;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+}
+.logo {
+    flex:0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1.5px solid #e8ecf2; 
+}
+.logo-font {
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.activity {
+    flex: 4;
+    /* background-color: yellow; */
+    border-bottom: 1.5px solid #e8ecf2; 
+}
+.menu {
+    padding: 20px 0px 0px 20px;
+}
+.menu-font {
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(172, 176, 191);
+    font-weight: 500;
+}
+.field {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.icon-1 {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.field-1 {
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    padding: 0px 0px 20px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+}
+.profile {
+    flex:1;
+    display: flex;
+    padding: 20px 0px 0px 20px;
+}
+.search {
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1.5px solid #e8ecf2; 
+}
+.search-field {
+    display: inline-block;
+    border-width: 0;
+    border-style: none;
+    border-color: none;
+    border-image: none;
+    font-size: 1.4rem;
+    height: 4rem;
+    width: 32rem;
+    background-color:#e8ecf2;
+    border-radius: 2.5rem;
+    padding: 1.5rem;
+}
+.list {
+    flex:4;
+    overflow-x: hidden;
+    overflow-y:auto;     
+}
+.no-group {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.7px;
+}
+.svg-icon {
+    object-fit: contain;
+    height: 25px;
+    width: 25px;
+}
+.recent-activity {
+    padding: 20px 0px 0px 20px;
+
+}
+.recent-font {
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(172, 176, 191);
+    font-weight: 500;
+}
+.friend__title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.friend__name {
+    font-size: 1.75rem;
+}
+.field-1:hover {
+    color: blue;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+}
+.font-1 {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+.font-2 {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(172, 176, 191);
+    letter-spacing: 0.75px;    
+}
+.svg-icon-profit {
+    height:30px;
+    width:30px;
+}
+.svg-icon-loss {
+    height:30px;
+    width:30px;
+    margin-bottom: 10px;
+}
+.text-1 {
+    font-size:13px;
+}
+.btn-e {
+    margin-top:12px;
+}
+.size-btn {
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor:pointer;
+    letter-spacing:1.5px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.size-btn:hover {
+    color: blue;
+}
+.top-buttons{
+    display: flex;
+    flex: 0.5;
+    border-bottom: 1.5px solid #e8ecf2;
+    flex-direction: row-reverse;
+}
+.transactions {
+    display: flex;
+    flex: 3.5;
+    flex-direction: row;
+}
+.add-payment {
+    margin-top: 13px;
+}
+.add-expense {
+    margin-top: 13px;
+    margin-left: 20px;
+}
+.add-expense:link, .add-expense:visited {
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: .75rem;
+    width: 25rem;
+    text-align: center;
+}
+.add-exp {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-self: center;
+    font-weight:700;
+    background-color: #617EF4;
+    color: #fff;
+    height: 4.1rem;
+    padding: 1rem 3rem;
+    display: inline-block;
+    letter-spacing: .25rem; 
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.add-expense {
+    margin-right: 25px;
+}
+.add-payment:link, .add-payment:visited {
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: .75rem;
+    width: 25rem;
+    text-align: center;
+}
+.add-pay {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(246,247,249,1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-self: center;
+    font-weight:700;
+    color: black;    
+    height: 4.1rem;
+    padding: 1rem 3rem;
+    display: inline-block;
+    letter-spacing: .25rem; 
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.add-pay:hover {
+    transform: translateY(-0.2rem);
+} 
+.add-pay:active {
+    transform: translateY(-0.05rem);
+}
+.add-exp:hover {
+    transform: translateY(-0.2rem);
+} 
+.add-exp:active {
+    transform: translateY(-0.05rem);
+}
